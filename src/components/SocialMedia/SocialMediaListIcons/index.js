@@ -19,6 +19,7 @@ export default function SocialMediaListIcons({smallIcon}) {
           align-items: center;
           display: flex;
           justify-content: center;
+          flex-wrap: wrap;
         }
 
         a {

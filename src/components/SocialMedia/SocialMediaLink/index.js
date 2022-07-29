@@ -7,11 +7,11 @@ export default function SocialMediaLink ({ iconSrc, iconAlt, text, linkTo }) {
       </a>
       <style jsx>{`
         a {
-          display: flex;
           align-items: center;
+          color: var(--color-white-100);
+          display: flex;
           justify-content: center;
           text-decoration: none;
-          color: var(--color-white-100);
         }
 
         a:hover {
@@ -24,6 +24,15 @@ export default function SocialMediaLink ({ iconSrc, iconAlt, text, linkTo }) {
 
         p {
           font-size: var(--text-font-size)
+        }
+        @media only screen and (max-width: 992px) {
+          a {
+            flex-wrap: wrap;
+          }
+
+          p {
+            margin: 1rem 0 2rem 0;
+          }
         }
       `}</style>
     </>
