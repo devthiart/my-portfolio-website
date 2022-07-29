@@ -12,7 +12,7 @@ export default function Portfolio ({ lang }) {
         <Title>{texts.title}</Title>
 
         <Project texts={texts.mygnar}>
-          {/* <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/3MLnwGRkcfk" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe> */}
+          <iframe src="https://www.youtube-nocookie.com/embed/3MLnwGRkcfk" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
         </Project>
 
         <Project texts={texts.myWebsite} hiddenLinkToProject>
@@ -34,6 +34,8 @@ export default function Portfolio ({ lang }) {
 
         iframe {
           padding-bottom: 2rem;
+          width: 90vw;
+          height: 45vw;
         }
 
         img {
