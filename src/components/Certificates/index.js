@@ -8,6 +8,7 @@ export default function Certificates({ texts }) {
         <Certificate texts={texts.react} imgSrc="/images/certificates/reactjs.png" />
         <Certificate texts={texts.unity} imgSrc="/images/certificates/unity.png" />
         <Certificate texts={texts.english} imgSrc="/images/certificates/english.png" />
+        <Certificate texts={texts.leadership} imgSrc="/images/certificates/leadership.png" />
       </ul>
       <style jsx>{`
         ul {

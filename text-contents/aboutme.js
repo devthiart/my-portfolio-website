@@ -10,23 +10,28 @@ const en = {
     frontEnd: {
       title: "Front End",
       alt: "Alura Certificate, Front End Developer.",
-      link: "https://cursos.alura.com.br/degree/certificate/fb79aa7f-4ec0-4e48-992d-2e200e4fea86",
+      link: "https://cursos.alura.com.br/degree/certificate/fb79aa7f-4ec0-4e48-992d-2e200e4fea86?lang=en",
     },
     react: {
       title: "React",
       alt: "Alura Certificate, React Developer.",
-      link: "https://cursos.alura.com.br/degree/certificate/2c59cb16-a00b-4ac9-b88f-ce1c4b93e346",
+      link: "https://cursos.alura.com.br/degree/certificate/2c59cb16-a00b-4ac9-b88f-ce1c4b93e346?lang=en",
     },
     unity: {
       title: "Unity",
       alt: "Alura Certificate, Games with Unity.",
-      link: "https://cursos.alura.com.br/degree/certificate/1d49a4a5-29e1-4b93-b001-cbcfefd1ac5f",
+      link: "https://cursos.alura.com.br/degree/certificate/1d49a4a5-29e1-4b93-b001-cbcfefd1ac5f?lang=en",
     },
     english: { 
       title: "English",
       alt: "True Way Idiomas Certificate, English for Developers.",
       link: "https://inglesparadevs.com.br/",
     },
+    leadership: {
+      title: "High Performance Leadership",
+      alt: "G4 Education Certificate, High Performance Leadership",
+      link: "https://g4educacao.com/cursos-online/lideranca-de-alta-performance",
+    }
   },
 }
   
@@ -59,6 +64,11 @@ const pt = {
       alt: "Certificado True Way Idiomas, Inglês para Devs.",
       link: "https://inglesparadevs.com.br/",
     },
+    leadership: {
+      title: "Liderança de Alta Performance",
+      alt: "Certificado G4 Educação, Liderança de alta performance.",
+      link: "https://g4educacao.com/cursos-online/lideranca-de-alta-performance",
+    }
   },
 }
 

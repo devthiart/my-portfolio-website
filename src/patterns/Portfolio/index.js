@@ -12,16 +12,14 @@ export default function Portfolio ({ lang }) {
         <Title>{texts.title}</Title>
 
         <Project texts={texts.mygnar}>
+          {/* <img src="/images/portfolio/mygnar-game.gif" alt={texts.mygnar.imgAlt} /> */}
           <iframe src="https://www.youtube-nocookie.com/embed/3MLnwGRkcfk" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
         </Project>
 
         <Project texts={texts.myWebsite} hiddenLinkToProject>
           <img src="/images/portfolio/portfolio-website.png" alt={texts.myWebsite.imgAlt} />
         </Project>
-
-        <Project texts={texts.reactLyrics}>
-          <img src="/images/portfolio/react-lyrics.jpg" alt={texts.reactLyrics.imgAlt} />
-        </Project>
+        
         <GitHubLink texts={texts.githubLink}/>
         
       </section>

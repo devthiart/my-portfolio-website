@@ -2,12 +2,12 @@ const en = {
   title: "Portfolio",
   mygnar: {
     title: "Mygnar",
-    imgAlt: "",
+    imgAlt: "Image about Mygnar Game.",
     content: {
       p1: "This was the first project I developed from start to finish. I used the Unity game engine and the C# programming language. During development, I learned to solve problems myself by searching documentation and platforms like Stack Overflow and forums. Also, this project was fundamental for me to start learning English. I worked not only in programming but in several other areas of great importance such as market research, project planning, game design, art, UX/UI, animation, video editing, and copywriting. I went through all the development stages and released the game on the Steam platform.",
     },
     link: "https://store.steampowered.com/app/1418460/Mygnar/",
-    buttonText: "See Project",
+    buttonText: "See Game on Steam",
   },
   myWebsite: {
     title: "My Website",
@@ -38,12 +38,12 @@ const pt = {
   title: "Portfólio",
   mygnar: {
     title: "Mygnar",
-    imgAlt: "",
+    imgAlt: "Imagem sobre o jogo Mygnar.",
     content: {
       p1: "Este foi o primeiro projeto que desenvolvi do início ao fim. Utilizei a game engine Unity e a linguagem de programação C#. Durante o desenvolvimento, aprendi a resolver problemas sozinho, pesquisando em documentações e plataformas como o Stack Overflow e fóruns. Além disso, este projeto foi fundamental para mim começar a aprender inglês. Atuei não só na programação, mas em diversas outras áreas de grande importância como pesquisa de mercado, planejamento de projeto, game design, arte, UX/UI, animação, edição de vídeo e copywriting. Passei por todas as etapas de desenvolvimento e lancei o jogo na plataforma Steam. ",
     },
     link: "https://store.steampowered.com/app/1418460/Mygnar/",
-    buttonText: "Ver Projeto",
+    buttonText: "Ver Projeto na Steam",
   },
   myWebsite: {
     title: "Meu Site",
